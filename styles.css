@@ -46,6 +46,12 @@ code {
   font-family: "Inconsolata";
 }
 
+.MathJax_Display {
+  background-color: #eee;
+  padding: 1rem;
+  font-size: 1.5rem;
+}
+
 #imperial-logo {
   position: absolute;
   bottom: 1rem;
