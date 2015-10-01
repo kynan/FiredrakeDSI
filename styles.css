@@ -58,6 +58,17 @@ code {
   font-size: 1.5rem;
 }
 
+.video_container {
+  width: 100%;
+}
+
+.video {
+  display: block;
+  margin: 0 auto;
+  width: 720px;
+  height: 720px;
+}
+
 #imperial-logo {
   position: absolute;
   bottom: 1rem;
