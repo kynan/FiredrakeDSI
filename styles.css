@@ -46,6 +46,12 @@ code {
   font-family: "Inconsolata";
 }
 
+@media (min-height: 1024px) {
+  pre {
+    font-size: 1.25rem;
+  }
+}
+
 .MathJax_Display {
   background-color: #eee;
   padding: 1rem;
