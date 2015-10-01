@@ -1,4 +1,5 @@
 @import url(https://fonts.googleapis.com/css?family=Open+Sans);
+@import url(https://fonts.googleapis.com/css?family=Inconsolata);
 
 @media (max-width: 1199px) {
   html {
@@ -29,6 +30,14 @@ h2 {
 h3 {
   padding: 1rem;
   font-size: 2rem;
+}
+
+pre {
+  padding: 1rem;
+}
+
+code {
+  font-family: "Inconsolata";
 }
 
 #imperial-logo {
