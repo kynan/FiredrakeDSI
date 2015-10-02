@@ -1,0 +1,46 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans);
+
+@media (max-width: 1199px) {
+  html {
+    font-size: 16px;
+  }
+}
+@media (min-width: 1200px) {
+  html {
+    font-size: 20px;
+  }
+}
+@media (min-width: 1600px) {
+  html {
+    font-size: 22px;
+  }
+}
+
+html {
+  width: 100%;
+  height: 100%;
+}
+body {
+  margin: 0;
+  width: 100%;
+  height: 100%;
+  font-family: "Open Sans", sans-serif;
+}
+.block {
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  display: table;
+}
+.centered {
+  display: table-cell;
+  vertical-align: middle;
+  width: 100%;
+  padding: 1rem;
+}
+.huge {
+  font-size: 3rem;
+}
+#firedrake-banner {
+  width: 100%;
+}
