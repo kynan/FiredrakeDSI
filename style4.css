@@ -41,6 +41,27 @@ body {
 .huge {
   font-size: 3rem;
 }
+.container {
+  margin-right: auto;
+  margin-left: auto;
+  width: 45rem;
+}
+.wrap {
+  display: inline-block;
+  width: 20rem;
+  height: 15rem;
+  overflow: hidden;
+  margin: 1rem;
+  padding 0;
+}
+.screen {
+  width: 80rem;
+  height: 60rem;
+  transform: scale(0.25);
+  transform-origin: 0 0;
+  padding 0;
+}
 #firedrake-banner {
+  margin: 1rem;
   width: 100%;
 }
