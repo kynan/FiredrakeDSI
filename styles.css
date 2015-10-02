@@ -69,6 +69,13 @@ code {
   height: 720px;
 }
 
+@media (min-width: 1200px) and (min-height: 1200px) {
+  .video {
+    width: 960px;
+    height: 960px;
+  }
+}
+
 #imperial-logo {
   position: absolute;
   bottom: 1rem;
