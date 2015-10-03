@@ -39,7 +39,11 @@ body {
   width: 100%;
   padding: 1rem;
 }
+.large {
+  font-size: 2rem;
+}
 .huge {
+  color: #8C1B1E;
   font-size: 3rem;
 }
 .container {
@@ -81,4 +85,8 @@ body {
 #firedrake-banner {
   margin: 1rem;
   width: 100%;
+}
+.logo {
+  height: 4rem;
+  padding: 1rem;
 }
