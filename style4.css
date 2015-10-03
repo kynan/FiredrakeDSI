@@ -46,15 +46,31 @@ body {
   margin-left: auto;
   width: 45rem;
 }
-.wrap {
+.screen {
   display: inline-block;
+  width: 20rem;
+  height: 18rem;
+  margin: 1rem;
+  box-shadow: .25rem .25rem .5rem #333;
+}
+.caption {
+  width: 20rem;
+  height: 3rem;
+  text-align: center;
+  vertical-align: middle;
+  background-color: #eee;
+}
+.screen a {
+  text-decoration: none;
+  font-size: 2rem;
+}
+.wrap {
   width: 20rem;
   height: 15rem;
   overflow: hidden;
-  margin: 1rem;
   padding 0;
 }
-.screen {
+.preview {
   width: 80rem;
   height: 60rem;
   transform: scale(0.25);
